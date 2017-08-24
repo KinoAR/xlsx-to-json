@@ -1,10 +1,10 @@
-# project-skeleton
-A skeleton project folder for creating applications.
+# XLSX-TO-JSON
+A simple web page that takes an xlsx file and turns it into a JSON output for download and viewing.
 
-# Included
+# Technologies
 
 * Vue.js
-* Node.js
 * Bootstrap
 * Babel
 * Webpack
+* SheetJS
