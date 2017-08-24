@@ -17,11 +17,13 @@
         <pre id="output"> </pre>
       </div>
     </div>
+    <xlsx-footer></xlsx-footer>
   </div> 
 </template>
 
 
 <script>
+import Footer from './components/footer.vue';
 export default {
   data() {
     return {
@@ -83,5 +85,8 @@ export default {
       console.log("Cleaned up Event", event);
     }
   },
+  components: {
+    'xlsx-footer': Footer,
+  }
 }
 </script>
