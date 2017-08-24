@@ -1,0 +1,5 @@
+div.drop-box {
+  min-height: 150px;
+  color: gray;
+  border: 2px dashed gray;
+}
