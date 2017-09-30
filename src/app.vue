@@ -8,7 +8,7 @@
     <div class="row">
       <input type='file' id='inputFile' v-on:change="parseXLSX($event.target.files)">
       <div v-if="hasDownload">
-        <a id="download"> Download Localalization JSON </a>
+        <a id="download"> Download Localization JSON </a>
       </div>
     </div>   
     <div class="row">
